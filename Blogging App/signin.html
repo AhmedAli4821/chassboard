@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/10.0.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.0.0/firebase-firestore-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.0.0/firebase-auth-compat.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="form">
+        <div class="email">
+            <!-- <label for="email">Email</label> -->
+            <input type="email" name="email" id="email" placeholder="Write your Email ">
+        </div>
+
+        <div class="pass">
+            <!-- <label for="password">Password</label> -->
+            <input type="password" name="password" id="password" placeholder="Password">
+        </div>
+        <button id="submint-btn" onclick="signIn()">Sign In</button>
+      
+    </div>
+
+
+
+    <script src="app.js"></script>
+    
+</body>
+</html>

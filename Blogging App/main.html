@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogger</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-content">
+            <p class="web-name">Personal Blogging Website</p>
+            <div class="right-stuff">
+                <p class="nav-text"></p>
+                <button class="nav-btn" id="logout-button">Logout</button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="dashboard">
+        <p class="dash-text">Dashboard</p>
+    </div>
+
+    <div class="blog-main">
+
+        <div class="blog-div">
+            <div class="input-div">
+                <input class="input-style" id="title-input" placeholder="title of your blog" required minlength="5" maxlength="50" type="text">
+            </div>
+            <div class="textarea">
+                <textarea  id="textarea-input"></textarea>
+            </div>
+            <p id="charCount">Characters remaining: 3000</p>
+            <div class="button-div">
+                <button id="publish-blog" class="pub-btn">Publish blog</button>
+            </div>
+        </div>
+    </div>
+
+    <ul id="list"> 
+
+    </ul>
+<a href="img/images.jpg"></a>
+
+    <script type="module" src="main.js"></script>
+</body>
+
+</html> 
